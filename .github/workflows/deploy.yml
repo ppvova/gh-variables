@@ -10,8 +10,8 @@ env:
 jobs:
   test:
     env:
-      MONGODB_USERNAME: testuser
-      MONGODB_PASSWORD: MonzfcwgMddQ5vPv
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
