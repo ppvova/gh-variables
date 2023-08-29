@@ -6,12 +6,12 @@ on:
       - dev
 env:
   MONGODB_DB_NAME: gha-demo
-  MONGODB_CLUSTER_ADDRESS: ghgh
+  MONGODB_CLUSTER_ADDRESS: cluster0.pxdtb6a.mongodb.net
 jobs:
   test:
     env:
-      MONGODB_USERNAME: hjh
-      MONGODB_PASSWORD: mnbmh
+      MONGODB_USERNAME: testuser
+      MONGODB_PASSWORD: MonzfcwgMddQ5vPv
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
