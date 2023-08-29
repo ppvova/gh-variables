@@ -34,7 +34,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: Output information
+      - name: Output information 1
         run: |        
           echo "MONGODB_DB_NAME ${{ env.MONGODB_DB_NAME }}"
           echo "MONGODB_CLUSTER_ADDRESS ${{ env.MONGODB_CLUSTER_ADDRESS }}"
